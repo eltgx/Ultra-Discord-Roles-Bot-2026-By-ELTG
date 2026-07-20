@@ -1,0 +1,71 @@
+{
+  "guildId": "1498989688617308235",
+  "prefix": "$",
+  "clientId": "YOUR_APPLICATION_CLIENT_ID",
+
+  "roles": {
+    "vipPlus": "1499023308979568722",
+    "admin": [
+      "1499013965299060838",
+      "1499014334515253268",
+      "1499014937677135902",
+      "1499015330234892349",
+      "1499015542005301270"
+    ]
+  },
+
+  "voiceRewards": {
+    "intervalMs": 180000,
+    "baseXp": 15,
+    "vipXp": 30,
+    "points": 2,
+    "minHumanMembers": 2,
+    "requireUnmuted": true,
+    "requireUndeafened": true
+  },
+
+  "reputation": {
+    "cooldownMs": 86400000,
+    "amount": 1
+  },
+
+  "leaderboard": {
+    "limit": 10
+  },
+
+  "embeds": {
+    "colors": {
+      "primary": "#3498db",
+      "success": "#2ecc71",
+      "error": "#e74c3c",
+      "warning": "#f1c40f",
+      "neutral": "#2b2d31",
+      "vip": "#dca842",
+      "reputation": "#f1c40f",
+      "voice": "#2ecc71",
+      "boxes": "#389fff",
+      "achievement": "#9b59b6"
+    }
+  },
+
+  "channels": {
+    "levelUp": null,
+    "achievements": null,
+    "logs": null
+  },
+
+  "features": {
+    "autoLevelUp": false,
+    "autoEvaluateAchievements": true,
+    "dmOnVipExpiry": true,
+    "dmOnBoxGrant": true,
+    "progressBarLength": 12
+  },
+
+  "cooldowns": {
+    "levelup": 3000,
+    "boxes": 2000,
+    "profile": 2000,
+    "rep": 86400000
+  }
+}

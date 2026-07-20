@@ -1,0 +1,29 @@
+{
+  "name": "roles-bot",
+  "version": "2.0.0",
+  "description": "Production-ready Discord role achievements and voice leveling bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "register-commands": "node scripts/register-commands.js",
+    "migrate:quickdb": "node scripts/migrate-quickdb.js",
+    "pack:modvc": "node scripts/pack-modvc.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "leveling",
+    "roles",
+    "achievements",
+    "modvc"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  }
+}

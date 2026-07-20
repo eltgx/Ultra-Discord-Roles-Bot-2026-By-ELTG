@@ -1,0 +1,44 @@
+{
+  "common": {
+    "name": "Common",
+    "emoji": "🟩",
+    "minPoints": 10,
+    "maxPoints": 50,
+    "minXp": 20,
+    "maxXp": 80,
+    "vipBonus": null
+  },
+  "rare": {
+    "name": "Rare",
+    "emoji": "🟨",
+    "minPoints": 50,
+    "maxPoints": 150,
+    "minXp": 100,
+    "maxXp": 250,
+    "vipBonus": null
+  },
+  "legendary": {
+    "name": "Legendary",
+    "emoji": "🟧",
+    "minPoints": 200,
+    "maxPoints": 500,
+    "minXp": 400,
+    "maxXp": 1000,
+    "vipBonus": {
+      "chancePercent": 5,
+      "duration": "1d"
+    }
+  },
+  "mythic": {
+    "name": "Mythic",
+    "emoji": "🟪",
+    "minPoints": 500,
+    "maxPoints": 1200,
+    "minXp": 1200,
+    "maxXp": 3000,
+    "vipBonus": {
+      "chancePercent": 15,
+      "duration": "3d"
+    }
+  }
+}

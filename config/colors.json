@@ -1,0 +1,20 @@
+{
+  "fallen_leaf": { "roleId": "1499017437008367657", "label": "Fallen Leaf", "emoji": "🍂" },
+  "pineapple": { "roleId": "1499018007236575353", "label": "Pineapple", "emoji": "🍍" },
+  "tornado": { "roleId": "1499018081148735518", "label": "Tornado", "emoji": "🌪️" },
+  "flamingo": { "roleId": "1499018260908216492", "label": "Flamingo", "emoji": "🦩" },
+  "sparkle": { "roleId": "1499018368764608543", "label": "Sparkle", "emoji": "✨" },
+  "orange": { "roleId": "1499018422351167688", "label": "Orange", "emoji": "🍊" },
+  "crystal": { "roleId": "1499018518006337607", "label": "Crystal", "emoji": "🔮" },
+  "coffee": { "roleId": "1499018614760804395", "label": "Coffee", "emoji": "☕" },
+  "potato": { "roleId": "1499018727130402937", "label": "Potato", "emoji": "🥔" },
+  "ocean": { "roleId": "1499021179594342542", "label": "Ocean", "emoji": "🌊" },
+  "squid": { "roleId": "1499021277497921536", "label": "Squid", "emoji": "🦑" },
+  "apple": { "roleId": "1499021337665081344", "label": "Apple", "emoji": "🍎" },
+  "grape": { "roleId": "1499021428605976617", "label": "Grape", "emoji": "🍇" },
+  "cloud": { "roleId": "1499021490748915762", "label": "Cloud", "emoji": "☁️" },
+  "void": { "roleId": "1499021524529578054", "label": "Void", "emoji": "🌌" },
+  "tree": { "roleId": "1499021603848196168", "label": "Tree", "emoji": "🌳" },
+  "leaf": { "roleId": "1499021663935926453", "label": "Leaf", "emoji": "🍃" },
+  "ice": { "roleId": "1499021721649283122", "label": "Ice", "emoji": "❄️" }
+}

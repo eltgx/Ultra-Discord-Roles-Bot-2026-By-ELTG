@@ -1,0 +1,55 @@
+{
+  "errors": {
+    "generic": "Something went wrong. Please try again later.",
+    "noPermission": "You do not have permission to use this command.",
+    "missingBotPermission": "I am missing required permissions: {permissions}. Please ask an admin to fix my role.",
+    "roleHierarchy": "I cannot manage that role. Move my bot role above the target roles in Server Settings → Roles.",
+    "roleNotFound": "The configured role was not found on this server. Check `config/` role IDs.",
+    "userNotFound": "That user could not be found.",
+    "cooldown": "Cooldown active. Try again in **{time}**.",
+    "invalidUsage": "Invalid usage. {usage}",
+    "vipOnly": "This command is exclusive to **VIP+** members.",
+    "invalidBoxType": "Invalid box type. Choose from: {types}.",
+    "noBoxes": "You don't have any **{name}** boxes to open.",
+    "selfRep": "You cannot give reputation to yourself.",
+    "botRep": "You cannot give reputation to bots.",
+    "mentionRequired": "Please mention a valid user.",
+    "invalidDuration": "Invalid duration. Use formats like `30d`, `1y`, `12h`, `45m`.",
+    "invalidAmount": "Amount must be a positive number.",
+    "invalidLevel": "Level must be a positive integer.",
+    "guildOnly": "This command can only be used in a server."
+  },
+  "success": {
+    "colorSet": "Your name color is now **{color}** {emoji}",
+    "colorCleared": "Your custom name color has been removed.",
+    "vipGranted": "Granted/extended **VIP+** for {user} by **{duration}**.\nExpires: `{expiry}`",
+    "vipLifetime": "Granted **lifetime VIP+** to {user}.",
+    "boxGranted": "Gave **{amount}× {name}** box(es) to {user}.",
+    "levelSet": "Set {user}'s level to **{level}** ({rank}).",
+    "xpSet": "Set {user}'s XP to **{xp}** (Level {level} — {rank}).",
+    "repGiven": "You gave {user} a reputation point.",
+    "levelUp": "{user} leveled up: **{from}** → **{to}**\nGifted **1× {box}** box.",
+    "synced": "Synced roles for {user}: **{rank}** (Level {level}).",
+    "maxRank": "You already hold the maximum rank: **{rank}**.",
+    "alreadyRank": "You are already **{rank}**. Need **{xp}** more XP for **{next}**.",
+    "needXp": "Not enough XP yet. Need **{xp}** more XP for **{rank}**."
+  },
+  "vip": {
+    "expired": "Your **VIP+** membership has expired. Thank you for your support!",
+    "none": "You don't have an active VIP+ membership.",
+    "activeUntil": "Ends at: `{expiry}`",
+    "lifetime": "Status: **Lifetime**"
+  },
+  "boxes": {
+    "opened": "You opened a **{name}** box and received:",
+    "vipBonus": "Lucky bonus! You won **{duration}** of VIP+!",
+    "inventoryHint": "Use `/boxes open <type>` or `$boxes <type>` to open a box."
+  },
+  "achievements": {
+    "unlocked": "{icon} Achievement unlocked: **{name}**\n{description}",
+    "rewardSummary": "Rewards: {rewards}"
+  },
+  "voice": {
+    "modifier": "Every **{minutes}** minutes in voice you earn:\n\n**XP:** {xp}\n**Points:** {points}\n\n*Requirements: at least {minMembers} human member(s) in the channel, and not muted/deafened.*"
+  }
+}

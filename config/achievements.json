@@ -1,0 +1,123 @@
+[
+  {
+    "id": "first_steps",
+    "name": "First Steps",
+    "description": "Earn your first 100 XP",
+    "icon": "🌱",
+    "requirement": { "type": "xp", "amount": 100 },
+    "rewardRole": null,
+    "rewards": [],
+    "hidden": false,
+    "notify": true
+  },
+  {
+    "id": "voice_rookie",
+    "name": "Voice Rookie",
+    "description": "Spend 1 hour in voice channels",
+    "icon": "🎤",
+    "requirement": { "type": "voice_hours", "amount": 1 },
+    "rewardRole": null,
+    "rewards": [{ "type": "box", "boxType": "common", "amount": 1 }],
+    "hidden": false,
+    "notify": true
+  },
+  {
+    "id": "voice_regular",
+    "name": "Voice Regular",
+    "description": "Spend 24 hours in voice channels",
+    "icon": "🎧",
+    "requirement": { "type": "voice_hours", "amount": 24 },
+    "rewardRole": null,
+    "rewards": [{ "type": "box", "boxType": "rare", "amount": 1 }],
+    "hidden": false,
+    "notify": true
+  },
+  {
+    "id": "voice_veteran",
+    "name": "Voice Veteran",
+    "description": "Spend 100 hours in voice channels",
+    "icon": "🏅",
+    "requirement": { "type": "voice_hours", "amount": 100 },
+    "rewardRole": null,
+    "rewards": [{ "type": "box", "boxType": "legendary", "amount": 1 }],
+    "hidden": false,
+    "notify": true
+  },
+  {
+    "id": "liked",
+    "name": "Well Liked",
+    "description": "Receive 10 reputation points",
+    "icon": "⭐",
+    "requirement": { "type": "reputation", "amount": 10 },
+    "rewardRole": null,
+    "rewards": [{ "type": "box", "boxType": "rare", "amount": 1 }],
+    "hidden": false,
+    "notify": true
+  },
+  {
+    "id": "celebrity",
+    "name": "Celebrity",
+    "description": "Receive 50 reputation points",
+    "icon": "🌟",
+    "requirement": { "type": "reputation", "amount": 50 },
+    "rewardRole": null,
+    "rewards": [{ "type": "box", "boxType": "legendary", "amount": 1 }],
+    "hidden": false,
+    "notify": true
+  },
+  {
+    "id": "bronze_achiever",
+    "name": "Bronze Achiever",
+    "description": "Reach Bronze V",
+    "icon": "🥉",
+    "requirement": { "type": "level", "amount": 5 },
+    "rewardRole": null,
+    "rewards": [{ "type": "points", "amount": 100 }],
+    "hidden": false,
+    "notify": true
+  },
+  {
+    "id": "silver_achiever",
+    "name": "Silver Achiever",
+    "description": "Reach Silver V",
+    "icon": "🥈",
+    "requirement": { "type": "level", "amount": 10 },
+    "rewardRole": null,
+    "rewards": [{ "type": "box", "boxType": "legendary", "amount": 1 }],
+    "hidden": false,
+    "notify": true
+  },
+  {
+    "id": "gold_achiever",
+    "name": "Gold Achiever",
+    "description": "Reach Gold IV",
+    "icon": "🥇",
+    "requirement": { "type": "level", "amount": 14 },
+    "rewardRole": null,
+    "rewards": [{ "type": "box", "boxType": "mythic", "amount": 1 }],
+    "hidden": false,
+    "notify": true
+  },
+  {
+    "id": "elite_status",
+    "name": "Elite Status",
+    "description": "Reach the Elite rank",
+    "icon": "💎",
+    "requirement": { "type": "level", "amount": 26 },
+    "rewardRole": null,
+    "rewards": [{ "type": "box", "boxType": "mythic", "amount": 3 }],
+    "hidden": false,
+    "notify": true
+  },
+  {
+    "id": "hidden_grinder",
+    "name": "??? ",
+    "description": "A secret for the dedicated",
+    "icon": "❓",
+    "requirement": { "type": "xp", "amount": 500000 },
+    "rewardRole": null,
+    "rewards": [{ "type": "box", "boxType": "mythic", "amount": 2 }],
+    "hidden": true,
+    "notify": true
+  }
+]
